@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "391460154235",
+    "project_id": "fusionfashion-b43d2",
+    "storage_bucket": "fusionfashion-b43d2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:391460154235:android:bd13f9e3d0149cf1ba6bde",
+        "android_client_info": {
+          "package_name": "com.example.finalproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "391460154235-ekp6kurm8f3veoir47jihgukbagdof8f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.finalproject",
+            "certificate_hash": "72ed0f406464c0daf73f6789493b5f2ca4fe0c3b"
+          }
+        },
+        {
+          "client_id": "391460154235-t20eclia6cvps3phhfpfurgkuc34dl5j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2ujjNaf1Se4NriDbGhxkjSRl0lN_p0FM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "391460154235-t20eclia6cvps3phhfpfurgkuc34dl5j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

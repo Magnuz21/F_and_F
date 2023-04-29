@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/gradient"
+    tools:context=".LoginActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logo"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fusion &amp; Fushion"
+            android:textColor="@color/j"
+            android:fontFamily="sans-serif-condensed"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:textSize="25dp"/>
+        <EditText
+            android:id="@+id/et_Email"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="Username"
+            android:textColorHint="@color/by"
+            android:textColor="@color/by"
+            android:drawableLeft="@drawable/baseline_person_24"
+            android:layout_gravity="center"
+            android:drawablePadding="10dp"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/edit"
+            android:padding="20dp"/>
+        <EditText
+            android:id="@+id/et_Pass"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+
+            android:inputType="textPassword"
+            android:hint="Password"
+            android:textColor="@color/by"
+            android:textColorHint="@color/by"
+            android:drawableLeft="@drawable/baseline_lock_24"
+            android:imeOptions="actionDone"
+            android:layout_gravity="center"
+            android:drawablePadding="10dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edit"
+            android:padding="20dp"/>
+        <TextView
+            android:id="@+id/fpass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forget Password?"
+            android:textAllCaps="false"
+            android:layout_gravity="right"
+            android:textColor="@color/b"
+            android:layout_marginTop="20dp"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif"
+            android:layout_marginRight="35dp"/>
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_rounded"
+            android:text="Login"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/tview"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register for New User"
+            android:layout_gravity="center"
+            android:textColor="@color/b"
+            android:textSize="15sp"/>
+    </LinearLayout>
+
+
+</LinearLayout>

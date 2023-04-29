@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fusion &amp; Fashion</string>
+    <string name="err_name">Please Enter Your Name</string>
+    <string name="err_email">Please Enter  Valid  Email Address</string>
+    <string name="err_tel">Please Enter Contact Number 11 length</string>
+    <string name="err_password">Please Enter Password</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
